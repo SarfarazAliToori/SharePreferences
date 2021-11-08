@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SharePreferences and Intent</string>
+    <string name="enter_data">Enter Data</string>
+    <string name="show_data">Show Data</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="implicit_intent">Implicit Intent</string>
+    <string name="open_dialer">Open Dialer</string>
+    <string name="store_data_in_share_pref">Store Data in Share Pref</string>
+    <string name="get_data_from_sharepref">Get Data From SharePref</string>
+    <string name="clear_sharepref">Clear SharePref</string>
+
+</resources>

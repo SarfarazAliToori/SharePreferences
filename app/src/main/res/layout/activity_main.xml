@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed_myEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/enter_data" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_myEditText"
+        android:text="@string/show_data"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_Explict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/explicit_intent" />
+
+    <Button
+        android:id="@+id/btn_Implicit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Explict"
+        android:layout_marginTop="20dp"
+        android:text="@string/implicit_intent" />
+
+    <Button
+        android:id="@+id/btn_openDialer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Implicit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/open_dialer" />
+
+    <Button
+        android:id="@+id/btn_storeDataSharePref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_openDialer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/store_data_in_share_pref" />
+
+    <Button
+        android:id="@+id/btn_getDataSharePref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_storeDataSharePref"
+        android:layout_marginTop="20dp"
+        android:text="@string/get_data_from_sharepref"/>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_getDataSharePref"
+        android:layout_marginTop="20dp"
+        android:text="@string/clear_sharepref" />
+
+
+</RelativeLayout>
